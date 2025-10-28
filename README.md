@@ -10,10 +10,10 @@
   
 # Wiki do Projeto
 
-- [1- Tela Inicial](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos)
-    - [1.1- Widgets de texto:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#11--widgets-de-texto)
-    - [1.2- Widgets de imagem:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#12--widgets-de-imagem)
-    - [1.3 Widgets de botão:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#13-widgets-de-bot%C3%A3o)
+- [API e Seus Métodos](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos)
+    - [1.1- Método de Acesso:](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos#11-m%C3%A9todo-de-acesso)
+    - [1.2- Método de Autenticação:](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos#12-m%C3%A9todo-de-autentica%C3%A7%C3%A3o)
+    - [1.3 Método de Chamada:](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos#12-m%C3%A9todo-de-chamada)
 
 - [2- Tela de Informações](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/2%E2%80%90-Tela-de-Informa%C3%A7%C3%B5es)
     - [2.1- Widgets de texto:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/2%E2%80%90-Tela-de-Informa%C3%A7%C3%B5es#21--widgets-de-texto)
