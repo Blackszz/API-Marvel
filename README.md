@@ -1,7 +1,5 @@
 # API-Marvel
 
-# Aplicativo-Jogos-Inspiração
-
 ### Guilherme Santos
 ### Murilo Rangel
 
