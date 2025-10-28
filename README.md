@@ -10,7 +10,7 @@
   
 # Wiki do Projeto
 
-- [1- Tela Inicial](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial)
+- [1- Tela Inicial](https://github.com/Blackszz/API-Marvel/wiki/API-e-Seus-M%C3%A9todos)
     - [1.1- Widgets de texto:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#11--widgets-de-texto)
     - [1.2- Widgets de imagem:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#12--widgets-de-imagem)
     - [1.3 Widgets de botão:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/1%E2%80%90-Tela-inicial#13-widgets-de-bot%C3%A3o)
