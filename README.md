@@ -19,8 +19,9 @@
     - [2.1- Endpoints:](https://github.com/Blackszz/API-Marvel/wiki/Endpoints-e-Retornos#21-endpoints)
     - [2.2- Parâmetros e Retornos:](https://github.com/Blackszz/API-Marvel/wiki/Endpoints-e-Retornos#22-par%C3%A2metros-e-retornos)
 
-- [3- Outros](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/3%E2%80%90-Outros)
-    - [3.1- Mapa de interação:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/3%E2%80%90-Outros#31--mapa-de-intera%C3%A7%C3%A3o)
-    - [3.2- Vídeo:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/3%E2%80%90-Outros#32--v%C3%ADdeo)
-    - [3.3- Diagrama de classe:](https://github.com/Blackszz/Aplicativo-Jogos-Inspiracao/wiki/3%E2%80%90-Outros#33--diagrama-de-classe)
+- [Protótipo](https://github.com/Blackszz/API-Marvel/wiki/Prot%C3%B3tipo)
+    - [3.1- Tela Inicial:](https://github.com/Blackszz/API-Marvel/wiki/Prot%C3%B3tipo#31-tela-inicial)
+    - [3.2- Tela de Informações:](https://github.com/Blackszz/API-Marvel/wiki/Prot%C3%B3tipo#32-tela-de-informa%C3%A7%C3%B5es)
+    - [3.3- Mapa de Navegações:](https://github.com/Blackszz/API-Marvel/wiki/Prot%C3%B3tipo#33-mapa-de-navega%C3%A7%C3%B5es)
+    - [3.4- Vídeo de funcionamento:](https://github.com/Blackszz/API-Marvel/wiki/Prot%C3%B3tipo#34-v%C3%ADdeo-de-funcionamento)
  
