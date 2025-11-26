@@ -20,7 +20,7 @@
 <ul>
   <li><strong>Framework:</strong> Flutter</li>
   <li><strong>Linguagem:</strong> Dart</li>
-  <li><strong>API:</strong> <a href="https://developer.marvel.com/docs" target="_blank">Marvel Developer API</a></li>
+  <li><strong>API:</strong> <a href="https://superheroapi.com/" target="_blank">SuperHero API</a></li>
   <li><strong>IDE Recomendada:</strong> Android Studio / VS Code</li>
 </ul>
 
