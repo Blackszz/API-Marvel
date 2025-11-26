@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  //PALETTE
+  // PALETTE
   static const Color primaryRed = Color(0xFFED1D24);
   static const Color primaryDarkRed = Color(0xFFB71C1C);
   static const Color backgroundBlack = Color(0xFF0D0D0D);
@@ -15,24 +15,28 @@ class AppTheme {
     fontSize: 32,
     fontWeight: FontWeight.w700,
     color: textWhite,
+    fontFamily: 'Inter',
   );
 
   static const TextStyle sectionHeaderText = TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w600,
     fontFamily: 'Inter',
+    color: textWhite,
   );
 
   static const TextStyle bodyText = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
     fontFamily: 'Inter',
+    color: textLightGray,
   );
 
   static const TextStyle bodyTextBold = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w700,
     fontFamily: 'Inter',
+    color: textWhite,
   );
 
   // LIGHT THEME
@@ -40,7 +44,7 @@ class AppTheme {
     brightness: Brightness.light,
     primaryColor: primaryRed,
     scaffoldBackgroundColor: Colors.white,
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: Colors.white,
       elevation: 4,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -67,7 +71,7 @@ class AppTheme {
     brightness: Brightness.dark,
     primaryColor: primaryRed,
     scaffoldBackgroundColor: backgroundBlack,
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: surfaceBlack,
       elevation: 4,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
