@@ -1,4 +1,4 @@
-<h1>API Marvel</h1>
+<h1>API SuperHero</h1>
 
 <h2>Autores</h2>
 <ul>
@@ -7,11 +7,14 @@
 </ul>
 
 <h2>📖 Descrição do Projeto</h2>
-<p>Eu, Guilherme Santos, juntamente com Murilo Rangel, desenvolvemos um aplicativo utilizando a <strong>SuperHero API</strong>.</p>
+<p>
+  Eu, Guilherme Santos, juntamente com Murilo Rangel, desenvolvemos um aplicativo utilizando a 
+  <strong>SuperHero API</strong>.
+</p>
 <p>O aplicativo possui <strong>duas telas principais</strong>:</p>
 <ul>
-  <li><strong>Tela inicial:</strong> lista de diversos personagens da Marvel.</li>
-  <li><strong>Tela de informações:</strong> exibe detalhes do personagem selecionado (nome, descrição, imagem, HQs, etc.), vindos diretamente da API.</li>
+  <li><strong>Tela inicial:</strong> lista com diversos personagens de heróis.</li>
+  <li><strong>Tela de informações:</strong> exibe detalhes do personagem selecionado (nome, biografia, imagem, poder, conexões, etc.), vindos diretamente da API.</li>
 </ul>
 
 <hr>
@@ -35,7 +38,7 @@
     <ul>
       <li><a href="../../wiki/API-e-Seus-M%C3%A9todos#11-m%C3%A9todo-de-acesso" target="_blank">1.1 Método de Acesso</a></li>
       <li><a href="../../wiki/API-e-Seus-M%C3%A9todos#12-m%C3%A9todo-de-autentica%C3%A7%C3%A3o" target="_blank">1.2 Método de Autenticação</a></li>
-      <li><a href="../../wiki/API-e-Seus-M%C3%A9todos#12-m%C3%A9todo-de-chamada" target="_blank">1.3 Método de Chamada</a></li>
+      <li><a href="../../wiki/API-e-Seus-M%C3%A9todos#13-m%C3%A9todo-de-chamada" target="_blank">1.3 Método de Chamada</a></li>
     </ul>
   </li>
   <li><strong><a href="../../wiki/Endpoints-e-Retornos" target="_blank">Endpoints e Retornos</a></strong>
