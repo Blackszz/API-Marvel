@@ -7,7 +7,7 @@
 </ul>
 
 <h2>📖 Descrição do Projeto</h2>
-<p>Eu, Guilherme Santos, juntamente com Murilo Rangel, desenvolvemos um aplicativo utilizando a <strong>API da Marvel</strong>.</p>
+<p>Eu, Guilherme Santos, juntamente com Murilo Rangel, desenvolvemos um aplicativo utilizando a <strong>SuperHero API</strong>.</p>
 <p>O aplicativo possui <strong>duas telas principais</strong>:</p>
 <ul>
   <li><strong>Tela inicial:</strong> lista de diversos personagens da Marvel.</li>
