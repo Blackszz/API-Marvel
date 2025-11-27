@@ -1,20 +1,27 @@
 name: app_wiki_marvel
 description: "A new Flutter project."
 publish_to: 'none'
+
 version: 0.1.0
 
 environment:
   sdk: ^3.9.2
 
 dependencies:
-  flutter_dotenv: ^5.1.0
   flutter:
     sdk: flutter
+
+  flutter_dotenv: ^6.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/
+    - .env
