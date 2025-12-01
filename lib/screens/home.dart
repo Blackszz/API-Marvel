@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import '../api/api.dart';
+import '../service/api.dart';
 import '../widgets/character_card.dart';
-import '../models/superhero.dart';
 import '../theme/app_theme.dart';
 
 class HomePage extends StatefulWidget {
@@ -12,8 +11,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-    final api = SuperHeroApi();
-    late Future<List<SuperHero>> _heroesFuture;
+    final api = HeroApiService();
+    late Future<List<HeroModel>> _heroesFuture;
 
     @override
     void initState() {
@@ -36,7 +35,7 @@ class _HomePageState extends State<HomePage> {
                 backgroundColor: Colors.transparent,
                 elevation: 0,
             ),
-            body: FutureBuilder<List<SuperHero>>(
+            body: FutureBuilder<List<HeroModel>>(
                 future: _heroesFuture,
                 builder: (context, snapshot) {
                     if (snapshot.connectionState == ConnectionState.waiting) {

@@ -7,12 +7,22 @@ class HeroModel {
     final String name;
     final String fullName;
     final String imageUrl;
+    final Map<String, dynamic> powerstats;
+    final Map<String, dynamic> biography;
+    final Map<String, dynamic> appearance;
+    final Map<String, dynamic> work;
+    final Map<String, dynamic> connections;
 
     HeroModel({
         required this.id,
         required this.name,
         required this.fullName,
         required this.imageUrl,
+        required this.powerstats,
+        required this.biography,
+        required this.appearance,
+        required this.work,
+        required this.connections,
     });
 
     factory HeroModel.fromJson(Map<String, dynamic> json) {
@@ -21,12 +31,17 @@ class HeroModel {
             name: json['name'] ?? '',
             fullName: json['biography']?['full-name'] ?? '',
             imageUrl: json['image']?['url'] ?? '',
+            powerstats: Map<String, dynamic>.from(json["powerstats"] ?? {}),
+            biography: Map<String, dynamic>.from(json["biography"] ?? {}),
+            appearance: Map<String, dynamic>.from(json["appearance"] ?? {}),
+            work: Map<String, dynamic>.from(json["work"] ?? {}),
+            connections: Map<String, dynamic>.from(json["connections"] ?? {}),
         );
     }
 }
 
 class HeroApiService {
-    final String _baseUrl = "https://superheroapi.com/api/${dotenv.env['SUPERHERO_TOKEN']}";
+    final String _baseUrl = "https://corsproxy.io/?https://superheroapi.com/api/${dotenv.env['SUPERHERO_TOKEN']}";
 
     Future<HeroModel?> getHeroById(int id) async {
         try {
@@ -62,7 +77,7 @@ class HeroApiService {
         return heroes;
     }
 
-    Future<List<HeroModel>> getAllHeroesSmart() async {
+    Future<List<HeroModel>> getAllHeroes() async {
         List<HeroModel> heroes = [];
         int id = 1;
         int errors = 0;

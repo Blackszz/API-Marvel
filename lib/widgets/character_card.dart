@@ -1,10 +1,14 @@
+import 'package:app_wiki_marvel/service/api.dart';
 import 'package:flutter/material.dart';
-import '../models/superhero.dart';
 import '../screens/character_page.dart';
 import '../theme/app_theme.dart';
 
 class CharacterCard extends StatelessWidget {
-  final SuperHero hero;
+  final HeroModel hero;
+
+  String fixImageUrl(String url) {
+    return "https://corsproxy.io/?$url";
+  }
 
   const CharacterCard({Key? key, required this.hero}) : super(key: key);
 
@@ -31,10 +35,11 @@ class CharacterCard extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(8),
                 child: Image.network(
-                  hero.imageUrl ?? '',
+                  fixImageUrl(hero.imageUrl),
                   width: 70,
                   height: 70,
                   fit: BoxFit.cover,
+                  errorBuilder: (_, __, ___) => const Icon(Icons.error),
                 ),
               ),
               const SizedBox(width: 16),
